@@ -1,0 +1,26 @@
+// Solution:
+
+fn main() {
+    println!("Success!");
+}
+
+fn get_option(tp: u8) -> Option<i32> {
+    match tp {
+        1 => {
+            // TODO
+        }
+        _ => {
+            // TODO
+        }
+    };
+    never_return_fn()
+}
+fn never_return_fn() -> ! {
+    panic!()
+}
+ 
+
+/* 
+Explantion/What I understood:
+Adding panic statement solves the problem.
+*/
