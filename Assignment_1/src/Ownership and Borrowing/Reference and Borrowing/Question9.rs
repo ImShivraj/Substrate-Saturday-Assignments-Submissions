@@ -1,0 +1,25 @@
+// Solution:
+
+
+fn main() {
+    let mut s = String::from("hello, ");
+
+    borrow_object(&mut s);
+    
+    s.push_str("world");
+
+    println!("Success!");
+}
+
+fn borrow_object(s: &String) {}
+
+
+
+
+/* 
+Explantion/What I understood:
+
+Changed &s to &mut s to work out.
+
+
+*/
